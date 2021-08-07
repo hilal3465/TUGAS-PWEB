@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 08 Agu 2021 pada 00.39
+-- Waktu pembuatan: 08 Agu 2021 pada 00.54
 -- Versi server: 10.1.31-MariaDB
 -- Versi PHP: 5.6.34
 
@@ -19,16 +19,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_23_Mhafidzalhilall`
+-- Database: `db_23_hafidzalhilall`
 --
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `db_23_Mhafidzalhilall`
+-- Struktur dari tabel `db_23_hafidzalhilall`
 --
 
-CREATE TABLE `db_23_mhafidzalhilall` (
+CREATE TABLE `db_23_hafidzalhilall` (
   `NIM` varchar(20) NOT NULL,
   `Nama_Siswa` varchar(50) NOT NULL,
   `Jurusan` varchar(25) NOT NULL,
@@ -37,20 +37,20 @@ CREATE TABLE `db_23_mhafidzalhilall` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `db_23_Mhafidzalhilall`
+-- Dumping data untuk tabel `db_23_hafidzalhilall`
 --
 
-INSERT INTO `db_23_Mhafidzalhilall` (`NIM`, `Nama_Siswa`, `Jurusan`, `Angkatan`, `Alamat`) VALUES
-('235678', 'db_23_Mhafidzalhilall', 'Rekayasa Perangkat Lunak', '2020', 'PAKISAJI MALANG');
+INSERT INTO `db_23_hafidzalhilall` (`NIM`, `Nama_Siswa`, `Jurusan`, `Angkatan`, `Alamat`) VALUES
+('37464473', 'db_23_hafidzalhilall', 'Rekayasa Perangkat Lunak', '2020', 'PAKISAJI MALANG');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `db_23_Mhafidzalhilall`
+-- Indeks untuk tabel `db_23_hafidzalhilall`
 --
-ALTER TABLE `db_23_Mhafidzalhilall`
+ALTER TABLE `db_23_hafidzalhilall`
   ADD PRIMARY KEY (`NIM`);
 COMMIT;
 
